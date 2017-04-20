@@ -9,6 +9,7 @@ header, section, article, nav, footer, hgroup, details, summary, figure, main { 
 
 body {
   font-family: "Avenir", "Helvetica Neue", Arial, sans-serif;
+  color: #424242;
 }
 
 header {
@@ -78,12 +79,21 @@ input[type="email"] {
 
 .btn-form:hover {
   background: #D50000;
+  cursor: pointer;
 }
 
 .header-testimonial {
   text-align: left;
   margin: 0 auto;
   width: 650px;
+}
+
+#chat-example {
+  text-align: center;
+}
+
+#chat-example img {
+  width: 40%;
 }
 
 .feature-description {
@@ -95,4 +105,37 @@ input[type="email"] {
 
 .feature-description h2 {
   padding: 0 0 15px 0;
+}
+
+.example {
+  margin: 25px auto;
+  width: 700px;
+  box-sizing: border-box;
+}
+
+.example img {
+  width: 10%;
+  float: left;
+}
+
+.example::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.example h3 {
+  display: inline-block;
+  color: #9E9E9E;
+  font-size: 1.2em;
+  padding: 5px 0 0 15px;
+  font-weight: 600;
+  max-width: 600px;
+}
+
+.example h4 {
+  display: inline-block;
+  font-size: .85em;
+  padding: 5px 0 0 15px;
+  font-weight: 200;
 }
